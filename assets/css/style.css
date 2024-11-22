@@ -42,6 +42,10 @@ p {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -83,7 +87,6 @@ nav {
 
 nav a {
     color: #656464;
-    text-decoration: none;
 }
 
 nav a.selected {
@@ -317,7 +320,6 @@ h1 {
     font-size: 16px;
     line-height: 16px;
     font-weight: 600;
-    text-decoration: none;
 }
 
 .achievement .card a img {
@@ -503,4 +505,41 @@ h1 {
 .team .card p {
     font-size: 16px;
     line-height: 16px;
+}
+
+/* ===== APPLICATION SECTION ===== */
+
+.application {
+    margin-bottom: 118px;
+    height: 558px;
+    background: #E5F0FD;
+}
+
+.application .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.application .text {
+    max-width: 360px;
+}
+
+.application h3 {
+    margin: 120px 0 11px 0;
+}
+
+.application p {
+    margin: 27px 0 39px 0;
+}
+
+.application .container>img {
+    margin-right: -135px;
+}
+
+.application .buttons a:first-child img {
+    width: 145px;
+    height: 52px;
+    object-fit: none;
+    object-position: center;
+    margin-right: 20px;
 }
