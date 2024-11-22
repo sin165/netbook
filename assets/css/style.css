@@ -18,17 +18,31 @@ h2 {
 h2 {
     font-size: 36px;
     line-height: 48px;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
 }
 
 p {
     color: #656464;
     font-size: 18px;
     line-height: 28px;
+    margin: 0;
 }
 
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.highlighted {
+    color: #217BF4;
+    font-weight: 600;
 }
 
 /* ===== HEADER ===== */
@@ -147,11 +161,6 @@ h1 {
 
 /* ===== ABOUT SECTION ===== */
 
-.about {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .about .container {
     margin: 118px auto;
     display: flex;
@@ -161,13 +170,6 @@ h1 {
 .about .text {
     padding-top: 62px;
     max-width: 360px;
-}
-
-.about h3 {
-    margin: 0;
-    font-size: 18px;
-    letter-spacing: 0px;
-    color: #217BF4;
 }
 
 .about h2 {
@@ -193,7 +195,6 @@ h1 {
 .about li span {
     font-size: 18px;
     line-height: 18px;
-    font-weight: medium;
     letter-spacing: 0px;
     color: #171648;
     cursor: pointer;
@@ -229,4 +230,113 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+/* ===== ACHIEVEMENT SECTION ===== */
+
+.achievement {
+    margin-bottom: 118px;
+}
+
+.achievement .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.achievement .card {
+    flex-shrink: 0;
+    margin-right: 24px;
+    box-sizing: border-box;
+    width: 336px;
+    height: 340px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #B9B9B945;
+    border-radius: 14px;
+    padding: 44px 18px 0 46px;
+}
+
+.achievement .card:first-child {
+    box-shadow: 0px 26px 98px #92A5B824;
+}
+
+.achievement .card h4 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 32px 0;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #0A093D;
+}
+
+.achievement .info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.achievement .info div {
+    height: 24px;
+}
+
+.achievement .card .avatar {
+    width: 24px;
+    height: 24px;
+    object-fit: none;
+    object-position: -47px -38px;
+}
+
+.achievement .card .avatar:not(:first-child) {
+    margin-left: -8px;
+}
+
+.achievement .info p {
+    color: #5D5B70;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.achievement .card>p {
+    color: #8C8C8C;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 41px;
+}
+
+.achievement .card a {
+    color: #4A4A56;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.achievement .card a img {
+    margin-left: 9px;
+}
+
+.achievement .text {
+    margin-left: 69px;
+}
+
+.achievement h2 {
+    margin: 9px 0 21px 0;
+}
+
+.achievement .text button {
+    margin-top: 42px;
+    width: 192px;
+    height: 58px;
+    background: #217BF4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #217BF442;
+    border-radius: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    line-height: 14px;
 }
