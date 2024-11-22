@@ -422,3 +422,85 @@ h1 {
     font-size: 16px;
     line-height: 26px;
 }
+
+/* ===== TEAM SECTION ===== */
+
+.team {
+    margin: 117px 0 120px 0;
+}
+
+.team .headings {
+    text-align: center;
+    max-width: 474px;
+    margin: 0 auto 0 auto;
+}
+
+.team h2 {
+    line-height: 36px;
+    margin: 3px 0 20px 0;
+}
+
+.team .headings .buttons {
+    margin: 42px 0 44px 0;
+    background: #217cf40f 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .headings button {
+    color: #2f2c49cc;
+    font-size: 16px;
+    line-height: 16px;
+    width: 150px;
+    height: 56px;
+    border-radius: 14px;
+    background: none;
+}
+
+.team .headings button.selected {
+    background: #217BF4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 7px 44px #0048A857;
+    color: white;
+}
+
+.team .members {
+    display: flex;
+    gap: 30px;
+}
+
+.team .card {
+    padding: 30px 0 0 0;
+    width: 270px;
+    height: 316px;
+    text-align: center;
+}
+
+.team .card .avatar {
+    position: relative;
+    width: 166px;
+    height: 166px;
+    margin: 0 auto 34px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 4px solid #FFAF2E;
+}
+
+.team .card .check {
+    position: absolute;
+    bottom: -6px;
+}
+
+.team .card h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.team .card p {
+    font-size: 16px;
+    line-height: 16px;
+}
