@@ -615,3 +615,95 @@ h1 {
 .news a img {
     margin-left: 9px;
 }
+
+/* ===== FOOTER ===== */
+
+footer {
+    background: #2B2B39;
+}
+
+footer>.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 0 98px 0;
+}
+
+footer .links {
+    display: flex;
+}
+
+footer .links div {
+    width: 180px;
+}
+
+footer h4 {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 33px;
+}
+
+footer .links a {
+    display: block;
+    color: #E7E7E7;
+    font-size: 16px;
+    line-height: 46px;
+}
+
+footer .newsletter {
+    width: 340px;
+}
+
+footer .newsletter h4 {
+    width: 180px;
+    line-height: 32px;
+    margin-bottom: 27px;
+}
+
+footer .newsletter p {
+    color: #E7E7E7;
+    margin-bottom: 36px;
+}
+
+footer .newsletter form {
+    position: relative;
+}
+
+footer .newsletter input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    padding: 0 150px 0 24px;
+    background: none;
+    border: 1px solid #FFFFFFD9;
+    color: white;
+}
+
+footer .newsletter button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 126px;
+    height: 100%;
+    border-radius: 12px;
+    color: #2B2B39;
+    background: white;
+    font-weight: 600;
+}
+
+footer .bottom {
+    background: #20202D;
+}
+
+footer .bottom .container {
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .bottom p {
+    font-size: 14px;
+    color: #F6F6F6;
+}
