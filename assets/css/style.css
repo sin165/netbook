@@ -159,6 +159,7 @@ h1 {
     height: 62px;
     color: #217BF4;
     border: 1px solid #1f7bf480;
+    background: none;
 }
 
 .comunity-btn {
@@ -513,6 +514,7 @@ h1 {
     margin-bottom: 118px;
     height: 558px;
     background: #E5F0FD;
+    overflow: hidden;
 }
 
 .application .container {
